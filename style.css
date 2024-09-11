@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    letter-spacing: 2px;
+    padding: 10px;
+    font-size: 1.2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+}
+nav#navbar{
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    background-color:#FF8A8A;
+}
+nav#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#nav-items li a:hover {
+    background-color: greenyellow;
+    color:black;
+}
+#nav-items li{
+    list-style: none;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+#nav-items a{
+    text-decoration: none;
+    color: #fff;
+}
+#navbar.homeSection{
+    background-color: #f4750e;
+}
+#navbar.aboutSection{
+    background-color: #e2f16f;
+}
+#navbar .skillsSection{
+background-color: #FFEAA7;    
+}
+#navbar.contactSection{
+    background-color: #7BD3EA;
+}
+#boxes{
+    display: flex;
+   justify-content: space-around;
+}
+#box{
+    height: 150px;
+    width: 150px;
+    border: 4px solid black;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+#box i{
+    font-size: 2rem;
+    margin-top: 2px;
+}
+#contact ul{
+    padding: 10px;
+    list-style: none;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    background-color: #D1E9F6;
+}
+#about{
+    background-color: #F6EACB;
+}
+#skills{
+    background-color: #F1D3CE;
+}
+#contact{
+    background-color: #FFC6C6;
+}
